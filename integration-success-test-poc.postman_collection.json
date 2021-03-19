@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "bb2c0e91-09c0-41a4-9c11-de6ca8604d46",
-		"name": "integration-tests-poc",
+		"name": "integration-success-test-poc",
 		"description": "This is POC to run integration tests, using Postman/Newman & TeamCity",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
