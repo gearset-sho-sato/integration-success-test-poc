@@ -51,7 +51,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"{{$guid}}\"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -117,7 +117,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \" \"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -125,7 +125,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://eu.staging.gearset.com/public/continuous-integration-jobs/{{$guid}}/status",
+					"raw": "https://eu.staging.gearset.com/public/continuous-integration-jobs/abc/status",
 					"protocol": "https",
 					"host": [
 						"eu",
@@ -136,7 +136,7 @@
 					"path": [
 						"public",
 						"continuous-integration-jobs",
-						"{{$guid}}",
+						"abc",
 						"status"
 					]
 				}
