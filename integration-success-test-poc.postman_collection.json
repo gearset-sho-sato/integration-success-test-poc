@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Get Job Status (Success)",
+			"name": "Get Status For Existing Job",
 			"event": [
 				{
 					"listen": "test",
@@ -78,7 +78,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Job Status (Fail)",
+			"name": "Get Status For Non-Existing Job",
 			"event": [
 				{
 					"listen": "test",
@@ -125,7 +125,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://eu.staging.gearset.com/public/continuous-integration-jobs/abc/status",
+					"raw": "https://eu.staging.gearset.com/public/continuous-integration-jobs/{{$guid}}/status",
 					"protocol": "https",
 					"host": [
 						"eu",
@@ -136,7 +136,7 @@
 					"path": [
 						"public",
 						"continuous-integration-jobs",
-						"abc",
+						"{{$guid}}",
 						"status"
 					]
 				}
